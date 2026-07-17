@@ -161,10 +161,10 @@ A Medallion-lite data lake for gene-expression data: S3 for storage, Athena for 
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Tanmay-Hadke&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f2027&title_color=00C9FF&icon_color=00C9FF&text_color=c9d1d9" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Tanmay-Hadke&theme=tokyonight&hide_border=true&background=0f2027&ring=00C9FF&fire=00C9FF&currStreakLabel=00C9FF" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Tanmay-Hadke&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f2027&title_color=00C9FF&icon_color=00C9FF&text_color=c9d1d9&cache_seconds=86400" />
+<img height="165" src="https://streak-stats.demolab.com/?user=Tanmay-Hadke&theme=tokyonight&hide_border=true&background=0f2027&ring=00C9FF&fire=00C9FF&currStreakLabel=00C9FF" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tanmay-Hadke&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f2027&title_color=00C9FF&text_color=c9d1d9" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tanmay-Hadke&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f2027&title_color=00C9FF&text_color=c9d1d9&cache_seconds=86400" height="165"/>
 
 </div>
 
