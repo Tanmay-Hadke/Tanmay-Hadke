@@ -14,7 +14,7 @@
 <br/>
 
 <a href="https://github.com/Tanmay-Hadke">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Serverless+GenAI+%2B+MLOps+on+AWS;RAG+%7C+LLM+Agents+%7C+Vector+Search;Bioinformatics+%C3%97+Cloud+Data+Engineering;Turning+%240+AWS+Free+Tier+into+Production+Systems;M.S.+Data+Science+Candidate&font=Fira+Code&center=true&width=650&height=45&color=00C9A7&vCenter=true&size=22&pause=1200&duration=2600" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Serverless+GenAI+%2B+MLOps+on+AWS;RAG+%7C+LLM+Agents+%7C+Vector+Search;Bioinformatics+%C3%97+Cloud+Data+Engineering;Turning+%240+AWS+Free+Tier+into+Production+Systems;M.S.+Data+Science+Graduate&font=Fira+Code&center=true&width=650&height=45&color=00C9A7&vCenter=true&size=22&pause=1200&duration=2600" alt="Typing SVG" />
 </a>
 
 </div>
