@@ -208,7 +208,7 @@ Published research on graphene/carbon-based quantum dots — their role in drug 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Tanmay-Hadke&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A996FF&icon_color=A996FF&text_color=E0E0FF&ring_color=A996FF"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tanmay-Hadke&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A996FF&text_color=E0E0FF&langs_count=8"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Tanmay-Hadke&theme=tokyonight&hide_border=true&background=0D1117&stroke=A996FF&ring=A996FF&fire=FF6EC7&currStreakLabel=E0E0FF" />
+<img src="https://streak-stats.demolab.com/?user=Tanmay-Hadke&theme=tokyonight&hide_border=true&background=0D1117&stroke=A996FF&ring=A996FF&fire=FF6EC7&currStreakLabel=E0E0FF" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Tanmay-Hadke&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=A996FF&line=A996FF&point=FF6EC7" width="98%"/>
 
