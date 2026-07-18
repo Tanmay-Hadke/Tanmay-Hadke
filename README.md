@@ -180,14 +180,20 @@ A fully serverless, Free-Tier data lake for querying and visualizing gene-expres
 
 <br/>
 
-### 📊 GitHub Analytics
+## 📊 GitHub Analytics
  
 <div align="center">
-<img src="https://raw.githubusercontent.com/Tanmay-Hadke/Tanmay-Hadke/main/github-metrics.svg" alt="GitHub metrics" width="100%"/>
-<sub>⚙️ Auto-generated daily via GitHub Actions — see setup note below.</sub>
- 
+<img src="https://github-readme-stats-o6iaohgwy-tanmay-hadkes-projects.vercel.app/api?username=Tanmay-Hadke&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9A7&icon_color=00C9A7&text_color=c9d1d9&cache_seconds=86400" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Tanmay-Hadke&theme=tokyonight&hide_border=true&background=0D1117&ring=00C9A7&fire=00C9A7&currStreakLabel=00C9A7" height="165"/>
 </div>
----
+<div align="center">
+<img src="https://github-readme-stats-o6iaohgwy-tanmay-hadkes-projects.vercel.app/api/top-langs/?username=Tanmay-Hadke&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9A7&text_color=c9d1d9&cache_seconds=86400" height="165"/>
+</div>
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Tanmay-Hadke&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00C9A7&line=00C9A7&point=ffffff" width="95%"/>
+</div>
+<br/>
+
 
 
 ## 📊 Certifications & Achievements
