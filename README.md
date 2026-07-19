@@ -303,8 +303,8 @@ timeline
 
 <br/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Tanmay-Hadke&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=00d4ff&icon_color=6e40c9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tanmay-Hadke&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Tanmay-Hadke&theme=tokyonight" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Tanmay-Hadke&theme=tokyonight" />
 
 <br/>
 
