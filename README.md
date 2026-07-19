@@ -1,130 +1,40 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C5364,100:00C9A7&height=210&section=header&text=Tanmay%20Hadke&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Scientist%20%7C%20Building%20Serverless%20GenAI%20Systems%20on%20AWS&descAlignY=58&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6e40c9,100:00d4ff&height=220&section=header&text=Tanmay%20Hadke&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Software%20Developer%20%7C%20GenAI%20%26%20ML%20Engineer&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://www.linkedin.com/in/tanmay-hadke/">
-  <img src="https://img.shields.io/badge/LinkedIn-tanmay--hadke-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Building+production+GenAI+%26+LLM+systems;RAG+pipelines+%C2%B7+Multi-Agent+Systems+%C2%B7+Bioinformatics;Turning+data+into+decisions%2C+one+model+at+a+time;Currently+shipping+at+Webworx+India+%F0%9F%9A%80&font=Fira+Code&center=true&width=680&height=45&color=00D4FF&vCenter=true&size=22&pause=1800"/>
 </a>
-<a href="https://github.com/Tanmay-Hadke">
-  <img src="https://img.shields.io/badge/GitHub-Tanmay--Hadke-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<img src="https://img.shields.io/badge/CGPA-9.84%2F10-2ea44f?style=for-the-badge" />
-<img src="https://komarev.com/ghpvc/?username=Tanmay-Hadke&style=for-the-badge&color=00C9A7&label=PROFILE+VIEWS" />
 
 <br/>
 
-<a href="https://github.com/Tanmay-Hadke">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Serverless+GenAI+%2B+MLOps+on+AWS;RAG+%7C+LLM+Agents+%7C+Vector+Search;Bioinformatics+%C3%97+Cloud+Data+Engineering;Turning+%240+AWS+Free+Tier+into+Production+Systems;M.S.+Data+Science+Graduate&font=Fira+Code&center=true&width=650&height=45&color=00C9A7&vCenter=true&size=22&pause=1200&duration=2600" alt="Typing SVG" />
-</a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tanmay%20Hadke-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanmay-hadke/)
+[![GitHub followers](https://img.shields.io/github/followers/Tanmay-Hadke?style=for-the-badge&color=6e40c9&logo=github&label=Followers)](https://github.com/Tanmay-Hadke)
+[![Profile Views](https://komarev.com/ghpvc/?username=Tanmay-Hadke&style=for-the-badge&color=00d4ff&label=PROFILE+VIEWS)](https://github.com/Tanmay-Hadke)
 
 </div>
 
 <br/>
 
-## 🎯 About Me
-
-I'm a Computer Science graduate (**9.84 CGPA**) currently pursuing a **Master's in Data Science**, and my work sits at the intersection of three things: **cloud-native architecture, applied ML/GenAI, and data engineering**. Rather than just training models in notebooks, I ship them — as serverless pipelines on AWS, agentic multi-step workflows, and retrieval systems wired up to real LLMs.
-
-Most of my recent builds share the same DNA: **zero-server, scale-to-zero AWS backends** (Lambda + API Gateway + DynamoDB/S3/Athena) fronting fast open-weight LLM inference (Groq/Llama), with an MLOps layer for evaluation baked in rather than bolted on.
+## 🧑‍💻 About Me
 
 ```yaml
-role:         Aspiring Data Scientist & Cloud-Native ML Engineer
-currently:    M.S. Data Science (in progress)
-focus_areas:  [GenAI Systems, RAG, Agentic Pipelines, Serverless MLOps, Bioinformatics Data]
-ask_me_about: [Predictive Modelling, LLM Orchestration, AWS Serverless, Vector Search, Statistics]
-philosophy:   "Every model deserves a production home, not just a notebook."
+role: AI Software Developer @ Webworx India
+location: Pune, Maharashtra, India
+focus: Generative AI · LLM Applications · RAG · Multi-Agent Systems · Bioinformatics
+certifications: OCI Certified GenAI Professional | UGC NET Qualified
+currently: Building agentic AI systems, RAG pipelines, and cloud-native ML workflows
+ask_me_about: [LLMs, RAG, Prompt Engineering, Python, SQL, Cloud AI, Predictive Modeling]
+fun_fact: My portfolio site has a hidden ⚡ Harry Potter easter egg — try typing "LUMOS"
 ```
 
-<br/>
-
-## 🏗️ How My Projects Are Wired Together
-
-Almost every build below follows the same production pattern — decoupled storage, serverless compute, and an external LLM for inference:
-
-```mermaid
-flowchart LR
-    A[Client / Frontend<br/>HTML · JS · Gradio] -->|HTTPS| B(Amazon API Gateway)
-    B --> C[AWS Lambda<br/>Python 3.12]
-    C --> D{{Groq LPU Inference<br/>Llama 3.x / 4 Scout}}
-    C --> E[(Amazon DynamoDB<br/>metadata + results)]
-    F[Amazon S3<br/>raw data / uploads] --> G[Amazon Athena<br/>schema-on-read SQL]
-    G --> H[Metabase<br/>BI Dashboard]
-    C -.->|MLOps eval| I[/LLM-as-Judge<br/>quality scoring/]
-
-    style A fill:#0F2027,stroke:#00C9A7,color:#fff
-    style C fill:#2C5364,stroke:#00C9A7,color:#fff
-    style D fill:#00C9A7,stroke:#0F2027,color:#000
-    style B fill:#203A43,stroke:#00C9A7,color:#fff
-```
-
-<br/>
-
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 👁️ [Multimodal Video RAG](https://github.com/Tanmay-Hadke/MultiModalVideoRag)
-Search any video in **plain English** — *"show me a person falling"* returns the exact timestamp. No manual scrubbing, no labels.
-
-`CLIP` `ChromaDB` `Groq Llama-4 Scout Vision` `Gradio`
-
-**Pipeline:** frame sampling → CLIP embeddings → cosine search in ChromaDB → vision-LLM summary
-
-</td>
-<td width="50%" valign="top">
-
-### 🧠 [GenAI Research Assistant](https://github.com/Tanmay-Hadke/genai-reseach-assistant)
-Serverless app that ingests research PDFs and auto-summarizes them, with a continuous **LLM-as-a-Judge** evaluation loop.
-
-`AWS Lambda` `API Gateway` `DynamoDB` `S3 Pre-signed URLs` `Groq Llama 3.3 70B`
-
-**Result:** 100% structural compliance · 5.0/5.0 avg. quality score (automated eval)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧬 [BioML Course Generator](https://github.com/Tanmay-Hadke/aws-BioML-Course-Generator)
-A 4-agent chained pipeline (Curriculum Architect → Professor → Lab Instructor → MLOps Validator) that generates and *validates* university-level bioinformatics curricula end to end.
-
-`AWS Step Functions` `Lambda` `DynamoDB` `API Gateway`
-
-</td>
-<td width="50%" valign="top">
-
-### 🚀 [Serverless Marketing Copy Generator](https://github.com/Tanmay-Hadke/Marketing-AI-App)
-Turns a product description into platform-optimized ad copy (Twitter/LinkedIn/Instagram) with strict JSON-enforced LLM output — zero external Python dependencies.
-
-`AWS Lambda` `API Gateway` `DynamoDB` `Groq Llama-3.1`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ☁️ [Bioinformatics Data Lake on AWS](https://github.com/Tanmay-Hadke/aws-bioinformatics-datalake)
-A fully serverless, Free-Tier data lake for querying and visualizing gene-expression datasets straight off S3.
-
-`Amazon S3` `Athena` `IAM` `Docker + Metabase` `SQL`
-
-**Architecture:** Medallion-lite — S3 (storage) → Athena (schema-on-read SQL) → Metabase (BI)
-
-</td>
-<td width="50%" valign="top">
-
-### 📚 Explore More
-26 public repositories spanning ML/DL experiments, statistics, and dashboarding.
-
-<a href="https://github.com/Tanmay-Hadke?tab=repositories">
-<img src="https://img.shields.io/badge/View_All_Repositories-00C9A7?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-</td>
-</tr>
-</table>
+- 🚀 Currently building **GenAI-powered products** as an AI Software Developer at **Webworx India** (previously interned there Jan–Jun 2025)
+- 🔬 Former **AI Research Intern at GMGC**, working on applied ML research
+- 🎓 Computer Science graduate — strong foundation in statistics, predictive modeling, and data-driven problem solving
+- 🏆 **OCI Certified Generative AI Professional** · **UGC NET Qualified** · HackerRank Gold (SQL) & Silver (Python)
+- 🧬 Interests span **bioinformatics data pipelines**, **multi-agent LLM systems**, **RAG architectures**, and **serverless AI tooling**
+- 📄 Published research: *[Applications of Quantum Dots](https://www.ijset.in/wp-content/uploads/IJSET_V12_issue3_576.pdf)* — nanomaterials in bio-imaging & electronics
+- 🌱 Always experimenting with new AI agent frameworks, cloud-native ML, and clean, human-centered product design
 
 <br/>
 
@@ -132,100 +42,106 @@ A fully serverless, Free-Tier data lake for querying and visualizing gene-expres
 
 <div align="center">
 
-**Languages & Data**
+**Languages & Core**
 
-<img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
-<img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"/>
-
-
-**Cloud & Serverless (AWS)**
-
-<img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
-<img src="https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white"/>
-<img src="https://img.shields.io/badge/AWS%20Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white"/>
-<img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white"/>
-<img src="https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/Amazon%20Athena-8C4FFF?style=for-the-badge&logo=amazon&logoColor=white"/>
-<img src="https://img.shields.io/badge/API%20Gateway-FF4F8B?style=for-the-badge&logo=amazonapigateway&logoColor=white"/>
-<img src="https://img.shields.io/badge/Step%20Functions-FF9900?style=for-the-badge&logo=amazon&logoColor=white"/>
+<img src="https://skillicons.dev/icons?i=python,r,sql,bash&theme=dark" />
 
 **AI / ML / GenAI**
 
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue"/>
-<img src="https://img.shields.io/badge/Groq%20LPU-F55036?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/LLaMA-0467DF?style=for-the-badge&logo=meta&logoColor=white"/>
-<img src="https://img.shields.io/badge/CLIP-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/ChromaDB-1C1C1C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Gradio-F97316?style=for-the-badge&logo=gradio&logoColor=white"/>
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![OCI GenAI](https://img.shields.io/badge/OCI%20GenAI-F80000?style=flat-square&logo=oracle&logoColor=white)
 
-**Tools & BI**
+**Cloud & Data**
 
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-<img src = "https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white"/>
-<img src="https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white"/>
-<img src="https://img.shields.io/badge/Metabase-509EE3?style=for-the-badge&logo=metabase&logoColor=white"/>
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
-<img src="https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge&logo=looker&logoColor=white"/>
-<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-<img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white"/>
+<img src="https://skillicons.dev/icons?i=aws,git,github,vscode,docker&theme=dark" />
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
 
 </div>
 
 <br/>
 
-## 📊 GitHub Analytics
- 
-<div align="center">
-<img src="https://github-readme-stats-o6iaohgwy-tanmay-hadkes-projects.vercel.app/api?username=Tanmay-Hadke&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9A7&icon_color=00C9A7&text_color=c9d1d9&cache_seconds=86400" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Tanmay-Hadke&theme=tokyonight&hide_border=true&background=0D1117&ring=00C9A7&fire=00C9A7&currStreakLabel=00C9A7" height="165"/>
-</div>
-<div align="center">
-<img src="https://github-readme-stats-o6iaohgwy-tanmay-hadkes-projects.vercel.app/api/top-langs/?username=Tanmay-Hadke&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9A7&text_color=c9d1d9&cache_seconds=86400" height="165"/>
-</div>
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Tanmay-Hadke&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00C9A7&line=00C9A7&point=ffffff" width="95%"/>
-</div>
-<br/>
+## 🧭 How I Build AI Systems
 
+```mermaid
+flowchart LR
+    A["📥 Raw Data<br/>Docs · APIs · Sensors"] --> B["🧹 Preprocessing<br/>Cleaning & Feature Eng."]
+    B --> C["🧠 Modeling Layer<br/>ML / LLM / RAG"]
+    C --> D["🤖 Agent Orchestration<br/>Multi-Agent Pipelines"]
+    D --> E["☁️ Cloud Deployment<br/>AWS / Serverless"]
+    E --> F["📊 Insight & Product<br/>Dashboards · Apps"]
 
-
-## 📊 Certifications & Achievements
-
-| Certification | Issuer |
-|---|---|
-| 🥇 SQL Gold Badge | HackerRank |
-| 🥈 Python Silver Badge | HackerRank |
-| [SQL Intermediate](https://www.hackerrank.com/certificates/70457cdc3b48) | HackerRank |
-| [SQL Basics](https://www.hackerrank.com/certificates/8e23d79e8749) | HackerRank |
-| [Python Basics](https://www.hackerrank.com/certificates/a55cbafd0b3e) | HackerRank |
+    style A fill:#0d1117,stroke:#00d4ff,color:#fff
+    style B fill:#0d1117,stroke:#6e40c9,color:#fff
+    style C fill:#0d1117,stroke:#00d4ff,color:#fff
+    style D fill:#0d1117,stroke:#6e40c9,color:#fff
+    style E fill:#0d1117,stroke:#00d4ff,color:#fff
+    style F fill:#0d1117,stroke:#6e40c9,color:#fff
+```
 
 <br/>
 
-## 🔬 Research Contribution
-
-**[Applications of Quantum Dots](https://www.ijset.in/wp-content/uploads/IJSET_V12_issue3_576.pdf)** — *International Journal of Scientific Engineering & Technology*
-
-> Explores quantum dots (fluorescent nanocrystals) and their role in biomedical imaging, drug delivery, and quantum-dot display technology, with a focus on Graphene Quantum Dots (GQDs) as a carbon-based variant.
-
-<br/>
+## 📌 Featured Projects
 
 <div align="center">
 
-## 📫 Let's Connect
+| Project | Description | Stack |
+|---|---|---|
+| 🧬 **[aws-bioinformatics-datalake](https://github.com/Tanmay-Hadke/aws-bioinformatics-datalake)** | Cloud-native data lake architecture for bioinformatics datasets | AWS · Python |
+| 📚 **[aws-BioML-Course-Generator](https://github.com/Tanmay-Hadke/aws-BioML-Course-Generator)** | AI-generated course content pipeline at the intersection of Bio + ML | AWS · HTML |
+| 🔎 **[genai-research-assistant](https://github.com/Tanmay-Hadke/genai-reseach-assistant)** | GenAI-powered research assistant with retrieval-augmented workflows | Python · GenAI |
+| 📈 **[Marketing-AI-App](https://github.com/Tanmay-Hadke/Marketing-AI-App)** | AI-assisted marketing insights and content application | HTML · AI |
+| 🎥 **[MultiModalVideoRag](https://github.com/Tanmay-Hadke/MultiModalVideoRag)** | Multimodal RAG system for extracting and querying video content | Python · Jupyter |
 
-<a href="https://www.linkedin.com/in/tanmay-hadke/">
-  <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+*...and 16+ more across GenAI, multi-agent systems, SQL/RAG agents, and serverless AI research tools — explore the full [repository list](https://github.com/Tanmay-Hadke?tab=repositories).*
 
-<br/><br/>
+</div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9A7,50:2C5364,100:0F2027&height=100&section=footer" width="100%"/>
+<br/>
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Tanmay-Hadke&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=00d4ff&icon_color=6e40c9" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tanmay-Hadke&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Tanmay-Hadke&theme=tokyonight&hide_border=true&background=0d1117&ring=6e40c9&fire=00d4ff" />
+
+</div>
+
+<br/>
+
+## 🏆 Certifications & Achievements
+
+<div align="center">
+
+![OCI GenAI](https://img.shields.io/badge/OCI-Certified%20GenAI%20Professional-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![UGC NET](https://img.shields.io/badge/UGC%20NET-Qualified-6e40c9?style=for-the-badge)
+![HackerRank](https://img.shields.io/badge/HackerRank-SQL%20Gold-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)
+![HackerRank](https://img.shields.io/badge/HackerRank-Python%20Silver-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)
+
+</div>
+
+- 🏅 [SQL Basics](https://www.hackerrank.com/certificates/8e23d79e8749) · [SQL Intermediate](https://www.hackerrank.com/certificates/70457cdc3b48) · [Python Basics](https://www.hackerrank.com/certificates/a55cbafd0b3e)
+- 📄 Research: *Applications of Quantum Dots* — published in IJSET, covering fluorescent nanocrystals, bio-imaging, and graphene quantum dots
+
+<br/>
+
+## 🤝 Let's Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanmay-hadke/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tanmay-Hadke)
+
+*"⚡ Fun fact: this profile was refined with a Gryffindor's attention to detail."*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:6e40c9,100:0d1117&height=100&section=footer" width="100%"/>
 
 </div>
