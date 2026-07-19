@@ -131,32 +131,81 @@ flowchart LR
 
 <br/>
 
-## 💼 Experience
+## 💼 Experience Roadmap
 
-### 🔹 AI Software Developer — Webworx India *(Full-Time)*
-**July 2025 — Present**
-- Engineered a serverless telemetry ingestion pipeline using **Amazon Kinesis** and **AWS Lambda** to process continuous, large-scale sensor data at 24/7 throughput — eliminating manual intervention and cutting ML deployment overhead by **35%**
-- Productionized an edge-to-cloud predictive monitoring system using **PyTorch** on **AWS IoT Greengrass** and **SageMaker**, shifting from batch-hour latency to real-time inference and improving diagnostic accuracy by **20%**
-- Developed and deployed ML models for real-time anomaly detection in IoT sensor streams, supporting proactive maintenance and reducing mean time to intervention
-- Formalized an end-to-end ML accountability framework covering data pipelines, model versioning, and governance checkpoints — adopted cross-functionally and achieving full Responsible AI compliance
-- Collaborated with cross-functional engineering and product teams to translate operational data into actionable insights
+```mermaid
+timeline
+    title Career Journey
+    section 2024
+        Jun – Jul : AI Research Intern @ GMGC : Geographical Indicator research : Dashboards improved decisions +20%
+    section 2025 H1
+        Jan – Jun : AI Software Developer Intern @ Webworx India : Equine CV pipeline (CCTV) : Pose estimation with MMPose/DeepLabCut
+    section 2025 H2 – Present
+        Jul – Now : AI Software Developer @ Webworx India : Serverless IoT telemetry + real-time inference : Deployment overhead −35%, diagnostic accuracy +20%
+```
 
-`Computer Vision` `YOLOv8` `Full-Stack AI`
+<br/>
 
-### 🔹 AI Software Developer Intern — Webworx India
-**January 2025 — June 2025**
-- Researched and prototyped a computer vision pipeline for tracking horse eating patterns and daily activity via CCTV feeds
-- Optimized animal pose-estimation models (**MMPose** / **DeepLabCut**) to handle equine physiological movement in varying lighting conditions
-- Benchmarked multi-person and animal detection performance for accuracy in high-latency streaming environments
-- Collaborated on bioinformatics data-mining strategies linking visual movement data to equine health metrics
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🟢 AI Research Intern
+**GMGC** · Jun 2024 – Jul 2024
+
+`MS Excel` `Tableau` `Power BI`
+
+<details>
+<summary>View details</summary>
+<br/>
+
+- Researched multiple papers on **Geographical Indicators**
+- Helped improve decision-making by **20%** using responsive dashboards
+
+</details>
+
+</td>
+<td width="33%" valign="top">
+
+### 🟡 AI Software Developer Intern
+**Webworx India** · Jan 2025 – Jun 2025
 
 `Pose Estimation` `OpenCV` `PyTorch` `Data Mining`
 
-### 🔹 AI Research Intern — GMGC
-**June 2024 — July 2024**
-- Researched multiple papers on Geographical Indicators and helped improve decision-making by **20%** using responsive dashboards
+<details>
+<summary>View details</summary>
+<br/>
 
-`MS Excel` `Tableau` `Power BI`
+- Prototyped a CV pipeline tracking **horse eating patterns & activity** via CCTV feeds
+- Optimized animal pose-estimation (**MMPose** / **DeepLabCut**) for varying lighting conditions
+- Benchmarked multi-animal detection accuracy in high-latency streaming environments
+- Linked visual movement data to equine health metrics via bioinformatics data mining
+
+</details>
+
+</td>
+<td width="34%" valign="top">
+
+### 🔵 AI Software Developer
+**Webworx India** · Jul 2025 – Present
+
+`Computer Vision` `YOLOv8` `Full-Stack AI`
+
+<details>
+<summary>View details</summary>
+<br/>
+
+- Built a serverless telemetry pipeline (**Kinesis + Lambda**) — cut ML deployment overhead **35%**
+- Shipped edge-to-cloud predictive monitoring (**PyTorch**, **IoT Greengrass**, **SageMaker**) — real-time inference, **+20%** diagnostic accuracy
+- Deployed real-time anomaly detection for proactive maintenance on IoT sensor streams
+- Formalized an ML accountability framework — full **Responsible AI** compliance, adopted cross-functionally
+- Partnered cross-functionally to align model outputs with product metrics
+
+</details>
+
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -164,24 +213,63 @@ flowchart LR
 
 <div align="center">
 
-| | Project | Description | Stack |
-|:---:|---|---|---|
-| 🧬 | **[BioML Course Generator](https://github.com/Tanmay-Hadke/aws-BioML-Course-Generator)** | Automated curriculum generator for Bioinformatics — dynamically structures a 15-lecture ML syllabus on AWS | `AWS` `ML` `Bioinformatics` |
-| 🚢 | **[Supply Chain Risk Predictor](https://github.com/Tanmay-Hadke/supply-chain-risk-predictor)** | Predictive model forecasting supply chain disruptions from historical logistics data | `Python` `Neo4j` `Llama 3` `LangGraph` |
-| 🎯 | **[AI Marketing Strategist](https://github.com/Tanmay-Hadke/Marketing-AI-App)** | LLM-driven app generating SEO copy, campaign strategy, and audience-tailored content | `LLMs` `Prompt Engineering` `Python` |
-| ☁️ | **[GenAI AWS Pipeline Architect](https://github.com/Tanmay-Hadke/genai-aws-pipeline-architect)** | Cloud architecture for deploying and orchestrating GenAI workflows on AWS at enterprise scale | `AWS` `MLOps` `Generative AI` |
-| 🤖 | **[Serverless AI Research Crew](https://github.com/Tanmay-Hadke/serverless-ai-research-crew)** | Multi-agent system that autonomously scrapes, analyzes, and synthesizes research reports | `AWS` `Serverless` `AI Agents` |
-| 📑 | **[GenAI Research Assistant](https://github.com/Tanmay-Hadke/genai-reseach-assistant)** | RAG-powered tool that summarizes academic papers and answers queries from dense text | `LangChain` `RAG` `Streamlit` |
-| 💧 | **[Bioinformatics Data Lake](https://github.com/Tanmay-Hadke/aws-bioinformatics-datalake)** | Serverless AWS data lake to ingest, transform, and query massive genomic datasets | `AWS` `Athena` `Docker` |
-| 🗄️ | **[Hybrid SQL RAG Agent](https://huggingface.co/spaces/tanmay2604/hybrid-sql-rag-agent)** ↗ | Agent that queries both SQL databases and unstructured document stores via hybrid RAG | `LangChain` `SQL` `LLMs` |
-| 🧢 | **[GenZ ToS Translator](https://huggingface.co/spaces/tanmay2604/genz-tos-translator)** ↗ | NLP app that translates dense Terms of Service documents into Gen-Z slang | `HuggingFace` `LLMs` `Gradio` |
-| 🦆 | **[AI Rubber Duck Debugger](https://huggingface.co/spaces/tanmay2604/ai-rubber-duck-debugger)** ↗ | Conversational agent that helps developers talk through logic errors and tricky bugs | `HuggingFace` `Prompt Engineering` `LLMs` |
-| 🎞️ | **[Multi-Modal Video RAG](https://github.com/Tanmay-Hadke/MultiModalVideoRag)** | RAG system indexing video across visual and audio modalities for natural-language search | `Multi-Modal LLMs` `Vector DB` `CV` |
-| 🎓 | **[Socratic ML Tutor](https://huggingface.co/spaces/tanmay2604/socratic-ml-tutor)** ↗ | Educational AI that teaches ML concepts through guided Socratic questioning | `HuggingFace` `LLMs` `Gradio` |
-| 🎨 | **[Mythology Comic Generator](https://github.com/Tanmay-Hadke/mythology-comic-generator)** | Pipeline transforming folklore into visually consistent comic panels via LLMs + diffusion | `Diffusion` `LLMs` `Python` |
-| 👤 | **[Real-Time Age & Gender Detection](https://github.com/Tanmay-Hadke/Age-and-Gender-Detection)** · [Paper](http://doi.org/10.61463/ijset.vol.13.issue1.128) | CV app predicting demographic attributes from live video feeds | `OpenCV` `Deep Learning` `Python` |
-| 🖐️ | **[Gesture Control System](https://github.com/Tanmay-Hadke/Gesture-Control)** | Real-time CV app translating hand movements into touchless system commands | `OpenCV` `MediaPipe` `Python` |
-| 🖼️ | **[Neural Style Transfer](https://github.com/Tanmay-Hadke/Neural-Style-Transfer)** | Deep learning model blending artistic style and content using VGG19 | `Python` `CNNs` `Computer Vision` |
+📌 = <b>Pinned</b> on my <a href="https://github.com/Tanmay-Hadke">GitHub profile</a>
+
+</div>
+
+### ☁️ GenAI Cloud Infrastructure & Bioinformatics
+
+<div align="center">
+
+| Project | Description | Stack |
+|---|---|:---:|
+| 🧬 **[BioML Course Generator](https://github.com/Tanmay-Hadke/aws-BioML-Course-Generator)** 📌 | Automated curriculum generator for Bioinformatics — dynamically structures a 15-lecture ML syllabus | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![ML](https://img.shields.io/badge/ML-F7931E?style=flat-square) |
+| 💧 **[Bioinformatics Data Lake](https://github.com/Tanmay-Hadke/aws-bioinformatics-datalake)** 📌 | Serverless AWS data lake to ingest, transform, and query massive genomic datasets | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Athena](https://img.shields.io/badge/Athena-8C4FFF?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+| ☁️ **[GenAI AWS Pipeline Architect](https://github.com/Tanmay-Hadke/genai-aws-pipeline-architect)** | Enterprise-grade cloud architecture for deploying and orchestrating GenAI workflows | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![MLOps](https://img.shields.io/badge/MLOps-6e40c9?style=flat-square) |
+| 🤖 **[Serverless AI Research Crew](https://github.com/Tanmay-Hadke/serverless-ai-research-crew)** | Multi-agent system that autonomously scrapes, analyzes, and synthesizes research reports | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Serverless](https://img.shields.io/badge/Serverless-FD5750?style=flat-square) |
+
+</div>
+
+### 🤖 LLM, RAG & Agentic Applications
+
+<div align="center">
+
+| Project | Description | Stack |
+|---|---|:---:|
+| 📑 **[GenAI Research Assistant](https://github.com/Tanmay-Hadke/genai-reseach-assistant)** 📌 | RAG-powered tool that summarizes academic papers and answers queries from dense text | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-00D4FF?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) |
+| 🎞️ **[Multi-Modal Video RAG](https://github.com/Tanmay-Hadke/MultiModalVideoRag)** 📌 | RAG system indexing video across visual and audio modalities for natural-language search | ![Multi-Modal](https://img.shields.io/badge/Multi--Modal%20LLMs-6e40c9?style=flat-square) ![Vector DB](https://img.shields.io/badge/Vector%20DB-00D4FF?style=flat-square) |
+| 🎯 **[AI Marketing Strategist](https://github.com/Tanmay-Hadke/Marketing-AI-App)** 📌 | LLM-driven app generating SEO copy, campaign strategy, and audience-tailored content | ![LLMs](https://img.shields.io/badge/LLMs-412991?style=flat-square&logo=openai&logoColor=white) ![Prompt Eng](https://img.shields.io/badge/Prompt%20Engineering-6e40c9?style=flat-square) |
+| 🚢 **[Supply Chain Risk Predictor](https://github.com/Tanmay-Hadke/supply-chain-risk-predictor)** | Predictive model forecasting supply chain disruptions from historical logistics data | ![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white) ![Llama 3](https://img.shields.io/badge/Llama%203-0467DF?style=flat-square) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square) |
+| 🗄️ **[Hybrid SQL RAG Agent](https://huggingface.co/spaces/tanmay2604/hybrid-sql-rag-agent) ↗** | Agent that queries both SQL databases and unstructured document stores via hybrid RAG | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) |
+
+</div>
+
+### 🎨 Generative & NLP Experiments
+
+<div align="center">
+
+| Project | Description | Stack |
+|---|---|:---:|
+| 🧢 **[GenZ ToS Translator](https://huggingface.co/spaces/tanmay2604/genz-tos-translator) ↗** | NLP app that translates dense Terms of Service documents into Gen-Z slang | ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=flat-square) |
+| 🦆 **[AI Rubber Duck Debugger](https://huggingface.co/spaces/tanmay2604/ai-rubber-duck-debugger) ↗** | Conversational agent that helps developers talk through logic errors and tricky bugs | ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![Prompt Eng](https://img.shields.io/badge/Prompt%20Engineering-6e40c9?style=flat-square) |
+| 🎓 **[Socratic ML Tutor](https://huggingface.co/spaces/tanmay2604/socratic-ml-tutor) ↗** | Educational AI that teaches ML concepts through guided Socratic questioning | ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=flat-square) |
+| 🎨 **[Mythology Comic Generator](https://github.com/Tanmay-Hadke/mythology-comic-generator)** | Pipeline transforming folklore into visually consistent comic panels via LLMs + diffusion | ![Diffusion](https://img.shields.io/badge/Diffusion-EE4C2C?style=flat-square) ![LLMs](https://img.shields.io/badge/LLMs-412991?style=flat-square&logo=openai&logoColor=white) |
+
+</div>
+
+### 👁️ Computer Vision
+
+<div align="center">
+
+| Project | Description | Stack |
+|---|---|:---:|
+| 👤 **[Real-Time Age & Gender Detection](https://github.com/Tanmay-Hadke/Age-and-Gender-Detection)** · [Paper](http://doi.org/10.61463/ijset.vol.13.issue1.128) | CV app predicting demographic attributes from live video feeds | ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-FF6F00?style=flat-square) |
+| 🖐️ **[Gesture Control System](https://github.com/Tanmay-Hadke/Gesture-Control)** | Real-time CV app translating hand movements into touchless system commands | ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square) |
+| 🖼️ **[Neural Style Transfer](https://github.com/Tanmay-Hadke/Neural-Style-Transfer)** | Deep learning model blending artistic style and content using VGG19 | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![CNNs](https://img.shields.io/badge/CNNs-EE4C2C?style=flat-square) |
+
+</div>
+
+<div align="center">
 
 *Explore the full [repository list](https://github.com/Tanmay-Hadke?tab=repositories) or see everything live on my [portfolio](https://tanmay-hadke.github.io/portfolio/#projects).*
 
