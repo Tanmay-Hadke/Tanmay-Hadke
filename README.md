@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6e40c9,100:00d4ff&height=220&section=header&text=Tanmay%20Hadke&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Software%20Developer%20%7C%20GenAI%20%26%20ML%20Engineer&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6e40c9,100:00d4ff&height=220&section=header&text=Tanmay%20Hadke&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Software%20Developer%20%7C%20GenAI%20&amp%20ML%20Engineer&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://www.linkedin.com/in/tanmay-hadke/">
   <img src="https://readme-typing-svg.demolab.com/?lines=Building+production+GenAI+%26+LLM+systems;RAG+pipelines+%C2%B7+Multi-Agent+Systems+%C2%B7+Bioinformatics;Turning+data+into+decisions%2C+one+model+at+a+time;Currently+shipping+at+Webworx+India+%F0%9F%9A%80&font=Fira+Code&center=true&width=680&height=45&color=00D4FF&vCenter=true&size=22&pause=1800"/>
