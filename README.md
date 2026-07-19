@@ -209,13 +209,26 @@ timeline
 
 <br/>
 
-## 📌 Featured Projects
+## 📌 Currently Pinned
 
 <div align="center">
 
-📌 = <b>Pinned</b> on my <a href="https://github.com/Tanmay-Hadke">GitHub profile</a>
+*Straight from my <a href="https://github.com/Tanmay-Hadke">GitHub profile</a> — descriptions below are best-guess from the repo names; swap in your real one-liners.*
+
+| Repo | Likely focus *(please confirm/edit)* | Language |
+|---|---|:---:|
+| 🤖 **[AutonomousDataAnalyst](https://github.com/Tanmay-Hadke/AutonomousDataAnalyst)** | Autonomous agent that analyzes datasets and generates insights with minimal human input | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| ☕ **[cafebot-backend](https://github.com/Tanmay-Hadke/cafebot-backend)** | Backend service powering a café/ordering chatbot | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| 💹 **[graph-rag-financial-agent](https://github.com/Tanmay-Hadke/graph-rag-financial-agent)** | Graph-based RAG agent for financial data reasoning | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| 🏨 **[hotel-demand-forecaster](https://github.com/Tanmay-Hadke/hotel-demand-forecaster)** | Forecasting model for hotel booking demand | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| 🚨 **[Real-Time-Fraud-MLOps](https://github.com/Tanmay-Hadke/Real-Time-Fraud-MLOps)** | Real-time fraud detection with a full MLOps deployment pipeline | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| 🔁 **[retention-response-agent](https://github.com/Tanmay-Hadke/retention-response-agent)** | Agent that generates customer-retention response strategies | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 
 </div>
+
+<br/>
+
+## 🗂️ From My Portfolio
 
 ### ☁️ GenAI Cloud Infrastructure & Bioinformatics
 
@@ -223,8 +236,8 @@ timeline
 
 | Project | Description | Stack |
 |---|---|:---:|
-| 🧬 **[BioML Course Generator](https://github.com/Tanmay-Hadke/aws-BioML-Course-Generator)** 📌 | Automated curriculum generator for Bioinformatics — dynamically structures a 15-lecture ML syllabus | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![ML](https://img.shields.io/badge/ML-F7931E?style=flat-square) |
-| 💧 **[Bioinformatics Data Lake](https://github.com/Tanmay-Hadke/aws-bioinformatics-datalake)** 📌 | Serverless AWS data lake to ingest, transform, and query massive genomic datasets | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Athena](https://img.shields.io/badge/Athena-8C4FFF?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+| 🧬 **[BioML Course Generator](https://github.com/Tanmay-Hadke/aws-BioML-Course-Generator)** | Automated curriculum generator for Bioinformatics — dynamically structures a 15-lecture ML syllabus | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![ML](https://img.shields.io/badge/ML-F7931E?style=flat-square) |
+| 💧 **[Bioinformatics Data Lake](https://github.com/Tanmay-Hadke/aws-bioinformatics-datalake)** | Serverless AWS data lake to ingest, transform, and query massive genomic datasets | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Athena](https://img.shields.io/badge/Athena-8C4FFF?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
 | ☁️ **[GenAI AWS Pipeline Architect](https://github.com/Tanmay-Hadke/genai-aws-pipeline-architect)** | Enterprise-grade cloud architecture for deploying and orchestrating GenAI workflows | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![MLOps](https://img.shields.io/badge/MLOps-6e40c9?style=flat-square) |
 | 🤖 **[Serverless AI Research Crew](https://github.com/Tanmay-Hadke/serverless-ai-research-crew)** | Multi-agent system that autonomously scrapes, analyzes, and synthesizes research reports | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Serverless](https://img.shields.io/badge/Serverless-FD5750?style=flat-square) |
 
@@ -236,9 +249,9 @@ timeline
 
 | Project | Description | Stack |
 |---|---|:---:|
-| 📑 **[GenAI Research Assistant](https://github.com/Tanmay-Hadke/genai-reseach-assistant)** 📌 | RAG-powered tool that summarizes academic papers and answers queries from dense text | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-00D4FF?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) |
-| 🎞️ **[Multi-Modal Video RAG](https://github.com/Tanmay-Hadke/MultiModalVideoRag)** 📌 | RAG system indexing video across visual and audio modalities for natural-language search | ![Multi-Modal](https://img.shields.io/badge/Multi--Modal%20LLMs-6e40c9?style=flat-square) ![Vector DB](https://img.shields.io/badge/Vector%20DB-00D4FF?style=flat-square) |
-| 🎯 **[AI Marketing Strategist](https://github.com/Tanmay-Hadke/Marketing-AI-App)** 📌 | LLM-driven app generating SEO copy, campaign strategy, and audience-tailored content | ![LLMs](https://img.shields.io/badge/LLMs-412991?style=flat-square&logo=openai&logoColor=white) ![Prompt Eng](https://img.shields.io/badge/Prompt%20Engineering-6e40c9?style=flat-square) |
+| 📑 **[GenAI Research Assistant](https://github.com/Tanmay-Hadke/genai-reseach-assistant)** | RAG-powered tool that summarizes academic papers and answers queries from dense text | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-00D4FF?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) |
+| 🎞️ **[Multi-Modal Video RAG](https://github.com/Tanmay-Hadke/MultiModalVideoRag)** | RAG system indexing video across visual and audio modalities for natural-language search | ![Multi-Modal](https://img.shields.io/badge/Multi--Modal%20LLMs-6e40c9?style=flat-square) ![Vector DB](https://img.shields.io/badge/Vector%20DB-00D4FF?style=flat-square) |
+| 🎯 **[AI Marketing Strategist](https://github.com/Tanmay-Hadke/Marketing-AI-App)** | LLM-driven app generating SEO copy, campaign strategy, and audience-tailored content | ![LLMs](https://img.shields.io/badge/LLMs-412991?style=flat-square&logo=openai&logoColor=white) ![Prompt Eng](https://img.shields.io/badge/Prompt%20Engineering-6e40c9?style=flat-square) |
 | 🚢 **[Supply Chain Risk Predictor](https://github.com/Tanmay-Hadke/supply-chain-risk-predictor)** | Predictive model forecasting supply chain disruptions from historical logistics data | ![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white) ![Llama 3](https://img.shields.io/badge/Llama%203-0467DF?style=flat-square) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square) |
 | 🗄️ **[Hybrid SQL RAG Agent](https://huggingface.co/spaces/tanmay2604/hybrid-sql-rag-agent) ↗** | Agent that queries both SQL databases and unstructured document stores via hybrid RAG | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) |
 
