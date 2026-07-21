@@ -6,7 +6,7 @@
   <line x1="520" y1="40" x2="520" y2="160" stroke="#30363d" stroke-width="1"/>
 
   <!-- Total Contributions -->
-  <text x="130" y="78" text-anchor="middle" font-size="40" font-weight="700" fill="#a5c8ff">259</text>
+  <text x="130" y="78" text-anchor="middle" font-size="40" font-weight="700" fill="#a5c8ff">261</text>
   <text x="130" y="108" text-anchor="middle" font-size="15" fill="#a5c8ff">Total Contributions</text>
   <text x="130" y="130" text-anchor="middle" font-size="12" fill="#5eead4">Jul 27, 2024 - Present</text>
 
