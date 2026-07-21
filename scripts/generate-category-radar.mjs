@@ -95,11 +95,12 @@ function renderSvg(counts) {
   const fillColor = "rgba(110, 64, 201, 0.35)";
   const strokeColor = "#00d4ff";
 
-  const width = 420;
-  const height = 420;
-  const cx = width / 2;
-  const cy = height / 2 - 10;
-  const rMax = 130;
+  const width = 640;
+  const height = 480;
+  const cx = 280;
+  const cy = 250;
+  const rMax = 140;
+  const labelOffset = rMax + 30; // clearance ring for label text, tuned so labels stay inside the canvas
 
   const labels = Object.keys(counts);
   const values = Object.values(counts);
@@ -147,7 +148,7 @@ function renderSvg(counts) {
   // Labels (category name + count), placed just outside the outer ring
   const labelEls = labels
     .map((label, i) => {
-      const p = polarToCartesian(cx, cy, rMax + 28, i * angleStep);
+      const p = polarToCartesian(cx, cy, labelOffset, i * angleStep);
       let anchor = "middle";
       if (p.x > cx + 5) anchor = "start";
       else if (p.x < cx - 5) anchor = "end";
