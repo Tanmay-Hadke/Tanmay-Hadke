@@ -23,6 +23,10 @@ jobs:
           plugin_languages_threshold: 2%
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          plugin_topics: yes
+          plugin_topics_limit: 10
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
           config_timezone: Asia/Kolkata
 
       - name: Checkout repo
@@ -39,8 +43,20 @@ jobs:
           GH_USERNAME: Tanmay-Hadke
         run: node scripts/generate-streak-svg.mjs
 
+      - name: Generate language donut chart
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: Tanmay-Hadke
+        run: node scripts/generate-language-donut.mjs
+
+      - name: Generate repo-category radar chart
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: Tanmay-Hadke
+        run: node scripts/generate-category-radar.mjs
+
       - name: Commit generated SVGs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update profile metrics"
-          file_pattern: "github-metrics.svg github-streak-stats.svg"
+          file_pattern: "github-metrics.svg github-streak-stats.svg github-language-donut.svg github-category-radar.svg"
