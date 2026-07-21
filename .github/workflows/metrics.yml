@@ -11,6 +11,9 @@ jobs:
   build-metrics:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
       - uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg
@@ -28,9 +31,6 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_display: detailed
           config_timezone: Asia/Kolkata
-
-      - name: Checkout repo
-        uses: actions/checkout@v4
 
       - name: Set up Node
         uses: actions/setup-node@v4
