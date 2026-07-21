@@ -310,22 +310,13 @@ timeline
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Tanmay-Hadke&theme=tokyonight" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Tanmay-Hadke&theme=tokyonight&hide_border=true&background=0d1117&ring=6e40c9&fire=00d4ff" />
+![Streak Stats](./github-streak-stats.svg)
 
 <br/>
 
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Tanmay-Hadke&theme=tokyonight" />
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Tanmay-Hadke&theme=tokyonight" />
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Tanmay-Hadke&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00d4ff&line=6e40c9&point=ffffff" width="100%"/>
+![Metrics](./github-metrics.svg)
 
 </div>
-
-<br/>
 
 ## 🤝 Let's Build Something
 
