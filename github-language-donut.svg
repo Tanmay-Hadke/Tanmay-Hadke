@@ -1,0 +1,59 @@
+<svg width="480" height="300" viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect x="0.5" y="0.5" width="479" height="299" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="24" y="32" font-size="16" font-weight="700" fill="#a5c8ff">Language &amp; Framework Usage</text>
+
+  <g>
+    <path d="M 150 150 L 62.3807872420268 101.80380143960494 A 100 100 0 1 0 150 50 Z" fill="#00d4ff" />
+<path d="M 150 150 L 143.9750156921663 50.1816671943958 A 100 100 0 0 0 62.3807872420268 101.80380143960494 Z" fill="#6e40c9" />
+<path d="M 150 150 L 148.07445772265956 50.01854028401979 A 100 100 0 0 0 143.9750156921663 50.1816671943958 Z" fill="#5eead4" />
+<path d="M 150 150 L 149.4659202753487 50.00142621593187 A 100 100 0 0 0 148.07445772265956 50.01854028401979 Z" fill="#a5c8ff" />
+<path d="M 150 150 L 149.7075850824559 50.000427533333934 A 100 100 0 0 0 149.4659202753487 50.00142621593187 Z" fill="#f778ba" />
+<path d="M 150 150 L 149.8690168917678 50.000085782910006 A 100 100 0 0 0 149.7075850824559 50.000427533333934 Z" fill="#ffb86b" />
+<path d="M 150 150 L 149.95186465852623 50.00001158505617 A 100 100 0 0 0 149.8690168917678 50.000085782910006 Z" fill="#7ee787" />
+<path d="M 150 150 L 150.00000000000006 50 A 100 100 0 0 0 149.95186465852623 50.00001158505617 Z" fill="#d2a8ff" />
+    <circle cx="150" cy="150" r="55" fill="#0d1117" />
+  </g>
+
+  <g>
+    
+        <rect x="300" y="44" width="12" height="12" rx="2" fill="#00d4ff" />
+        <text x="320" y="54" font-size="13" fill="#a5c8ff">Python</text>
+        <text x="460" y="54" font-size="13" fill="#5eead4" text-anchor="end">83.0%</text>
+      
+
+        <rect x="300" y="70" width="12" height="12" rx="2" fill="#6e40c9" />
+        <text x="320" y="80" font-size="13" fill="#a5c8ff">Jupyter Notebook</text>
+        <text x="460" y="80" font-size="13" fill="#5eead4" text-anchor="end">16.0%</text>
+      
+
+        <rect x="300" y="96" width="12" height="12" rx="2" fill="#5eead4" />
+        <text x="320" y="106" font-size="13" fill="#a5c8ff">HTML</text>
+        <text x="460" y="106" font-size="13" fill="#5eead4" text-anchor="end">0.7%</text>
+      
+
+        <rect x="300" y="122" width="12" height="12" rx="2" fill="#a5c8ff" />
+        <text x="320" y="132" font-size="13" fill="#a5c8ff">JavaScript</text>
+        <text x="460" y="132" font-size="13" fill="#5eead4" text-anchor="end">0.2%</text>
+      
+
+        <rect x="300" y="148" width="12" height="12" rx="2" fill="#f778ba" />
+        <text x="320" y="158" font-size="13" fill="#a5c8ff">PowerShell</text>
+        <text x="460" y="158" font-size="13" fill="#5eead4" text-anchor="end">0.0%</text>
+      
+
+        <rect x="300" y="174" width="12" height="12" rx="2" fill="#ffb86b" />
+        <text x="320" y="184" font-size="13" fill="#a5c8ff">CSS</text>
+        <text x="460" y="184" font-size="13" fill="#5eead4" text-anchor="end">0.0%</text>
+      
+
+        <rect x="300" y="200" width="12" height="12" rx="2" fill="#7ee787" />
+        <text x="320" y="210" font-size="13" fill="#a5c8ff">Shell</text>
+        <text x="460" y="210" font-size="13" fill="#5eead4" text-anchor="end">0.0%</text>
+      
+
+        <rect x="300" y="226" width="12" height="12" rx="2" fill="#d2a8ff" />
+        <text x="320" y="236" font-size="13" fill="#a5c8ff">Other</text>
+        <text x="460" y="236" font-size="13" fill="#5eead4" text-anchor="end">0.0%</text>
+      
+  </g>
+</svg>
