@@ -1,0 +1,24 @@
+<svg width="780" height="200" viewBox="0 0 780 200" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect x="0.5" y="0.5" width="779" height="199" rx="12" fill="#0d1117" stroke="#30363d"/>
+
+  <!-- divider lines -->
+  <line x1="260" y1="40" x2="260" y2="160" stroke="#30363d" stroke-width="1"/>
+  <line x1="520" y1="40" x2="520" y2="160" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Total Contributions -->
+  <text x="130" y="78" text-anchor="middle" font-size="40" font-weight="700" fill="#a5c8ff">244</text>
+  <text x="130" y="108" text-anchor="middle" font-size="15" fill="#a5c8ff">Total Contributions</text>
+  <text x="130" y="130" text-anchor="middle" font-size="12" fill="#5eead4">Jul 27, 2024 - Present</text>
+
+  <!-- Current Streak -->
+  <circle cx="390" cy="70" r="34" fill="none" stroke="#6e40c9" stroke-width="4"/>
+  <text x="390" y="60" text-anchor="middle" font-size="18">🔥</text>
+  <text x="390" y="82" text-anchor="middle" font-size="26" font-weight="700" fill="#6e40c9">1</text>
+  <text x="390" y="122" text-anchor="middle" font-size="15" font-weight="700" fill="#6e40c9">Current Streak</text>
+  <text x="390" y="142" text-anchor="middle" font-size="12" fill="#5eead4">Jul 21 - Jul 21</text>
+
+  <!-- Longest Streak -->
+  <text x="650" y="78" text-anchor="middle" font-size="40" font-weight="700" fill="#a5c8ff">5</text>
+  <text x="650" y="108" text-anchor="middle" font-size="15" fill="#a5c8ff">Longest Streak</text>
+  <text x="650" y="130" text-anchor="middle" font-size="12" fill="#5eead4">Jul 11 - Jul 15</text>
+</svg>
