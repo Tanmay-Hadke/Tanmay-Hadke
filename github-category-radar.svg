@@ -22,7 +22,7 @@
 <circle cx="210" cy="200" r="4" fill="#00d4ff" />
 
   <text x="210" y="42" font-size="13" fill="#a5c8ff" text-anchor="middle" dominant-baseline="middle">Computer Vision (3)</text>
-<text x="360.2669295746342" y="151.1753148887583" font-size="13" fill="#a5c8ff" text-anchor="start" dominant-baseline="middle">RAG & Agentic (3)</text>
+<text x="360.2669295746342" y="151.1753148887583" font-size="13" fill="#a5c8ff" text-anchor="start" dominant-baseline="middle">RAG &amp; Agentic (3)</text>
 <text x="302.87006986221076" y="327.8246851112417" font-size="13" fill="#a5c8ff" text-anchor="start" dominant-baseline="middle">MLOps (5)</text>
 <text x="117.12993013778926" y="327.8246851112417" font-size="13" fill="#a5c8ff" text-anchor="end" dominant-baseline="middle">Bioinformatics (2)</text>
 <text x="59.73307042536575" y="151.17531488875827" font-size="13" fill="#a5c8ff" text-anchor="end" dominant-baseline="middle">NLP (0)</text>
