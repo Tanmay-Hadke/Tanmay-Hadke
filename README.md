@@ -316,6 +316,11 @@ timeline
 
 ![Metrics](./github-metrics.svg)
 
+<br/>
+
+<img src="./github-language-donut.svg" width="48%"/>
+<img src="./github-category-radar.svg" width="48%"/>
+
 </div>
 
 ## 🤝 Let's Build Something
