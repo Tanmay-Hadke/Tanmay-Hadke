@@ -5,8 +5,16 @@ on:
   workflow_dispatch:        # lets you trigger it manually from the Actions tab
   push:
     branches: [main]
+    paths-ignore:
+      - "github-metrics.svg"
+      - "github-streak-stats.svg"
+      - "github-language-donut.svg"
+      - "github-category-radar.svg"
 permissions:
   contents: write
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
 jobs:
   build-metrics:
     runs-on: ubuntu-latest
