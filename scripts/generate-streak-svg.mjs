@@ -71,10 +71,13 @@ async function fetchAllContributionDays() {
 
   const allDays = [];
   let windowEnd = new Date();
+  // GitHub's contributionsCollection rejects any from/to span over 365 days.
+  // Using calendar-based setFullYear() can land on exactly 366 days across a
+  // leap day, so we use fixed millisecond math and stay a day under the cap.
+  const MAX_WINDOW_MS = 364 * 24 * 60 * 60 * 1000;
 
   while (windowEnd > createdAt) {
-    const windowStart = new Date(windowEnd);
-    windowStart.setFullYear(windowStart.getFullYear() - 1);
+    const windowStart = new Date(windowEnd.getTime() - MAX_WINDOW_MS);
     const from = windowStart < createdAt ? createdAt : windowStart;
 
     const data = await graphql(calendarQuery, {
@@ -90,8 +93,7 @@ async function fetchAllContributionDays() {
       }
     }
 
-    windowEnd = new Date(from);
-    windowEnd.setDate(windowEnd.getDate() - 1);
+    windowEnd = new Date(from.getTime() - 24 * 60 * 60 * 1000);
   }
 
   // De-dupe (windows can overlap by a day at the edges) and sort ascending.
