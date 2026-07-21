@@ -36,8 +36,6 @@ jobs:
           plugin_isocalendar_duration: full-year
           plugin_topics: yes
           plugin_topics_limit: 10
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
           config_timezone: Asia/Kolkata
 
       - name: Set up Node
@@ -63,8 +61,30 @@ jobs:
           GH_USERNAME: Tanmay-Hadke
         run: node scripts/generate-category-radar.mjs
 
-      - name: Commit generated SVGs
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update profile metrics"
-          file_pattern: "github-metrics.svg github-streak-stats.svg github-language-donut.svg github-category-radar.svg"
+      - name: Commit and push generated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add github-metrics.svg github-streak-stats.svg github-language-donut.svg github-category-radar.svg
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update profile metrics"
+
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "Pushed successfully on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — fetching and rebasing before retry..."
+            git fetch origin main
+            git rebase origin/main
+            sleep $(( RANDOM % 5 + 1 ))
+          done
+
+          echo "Failed to push after 5 attempts."
+          exit 1
