@@ -76,6 +76,17 @@ function polarToCartesian(cx, cy, r, angleDeg) {
   return { x: cx + r * Math.cos(angleRad), y: cy + r * Math.sin(angleRad) };
 }
 
+// SVG is XML — raw &, <, >, ", ' in dynamic text (like "RAG & Agentic")
+// produce invalid, unrenderable SVG. Escape before inserting into any text node.
+function escapeXml(str) {
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
 function renderSvg(counts) {
   const bg = "#0d1117";
   const border = "#30363d";
@@ -140,7 +151,7 @@ function renderSvg(counts) {
       let anchor = "middle";
       if (p.x > cx + 5) anchor = "start";
       else if (p.x < cx - 5) anchor = "end";
-      return `<text x="${p.x}" y="${p.y}" font-size="13" fill="${textMain}" text-anchor="${anchor}" dominant-baseline="middle">${label} (${values[i]})</text>`;
+      return `<text x="${p.x}" y="${p.y}" font-size="13" fill="${textMain}" text-anchor="${anchor}" dominant-baseline="middle">${escapeXml(label)} (${values[i]})</text>`;
     })
     .join("\n");
 
