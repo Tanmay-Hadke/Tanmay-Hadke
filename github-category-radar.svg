@@ -14,15 +14,15 @@
 <line x1="280" y1="250" x2="146.85208771867852" y2="206.73762078750732" stroke="#30363d" stroke-width="1" />
   </g>
 
-  <polygon points="280,166 359.8887473687929,224.04257247250442 362.28993532094626,363.26237921249265 247.08402587162152,295.30495168499704 253.3704175437357,241.34752415750145" fill="rgba(110, 64, 201, 0.35)" stroke="#00d4ff" stroke-width="2" />
+  <polygon points="280,166 386.5183298250572,215.3900966300059 362.28993532094626,363.26237921249265 247.08402587162152,295.30495168499704 253.3704175437357,241.34752415750145" fill="rgba(110, 64, 201, 0.35)" stroke="#00d4ff" stroke-width="2" />
   <circle cx="280" cy="166" r="4" fill="#00d4ff" />
-<circle cx="359.8887473687929" cy="224.04257247250442" r="4" fill="#00d4ff" />
+<circle cx="386.5183298250572" cy="215.3900966300059" r="4" fill="#00d4ff" />
 <circle cx="362.28993532094626" cy="363.26237921249265" r="4" fill="#00d4ff" />
 <circle cx="247.08402587162152" cy="295.30495168499704" r="4" fill="#00d4ff" />
 <circle cx="253.3704175437357" cy="241.34752415750145" r="4" fill="#00d4ff" />
 
   <text x="280" y="80" font-size="13" fill="#a5c8ff" text-anchor="middle" dominant-baseline="middle">Computer Vision (3)</text>
-<text x="441.67960777017606" y="197.46711095625895" font-size="13" fill="#a5c8ff" text-anchor="start" dominant-baseline="middle">RAG &amp; Agentic (3)</text>
+<text x="441.67960777017606" y="197.46711095625895" font-size="13" fill="#a5c8ff" text-anchor="start" dominant-baseline="middle">RAG &amp; Agentic (4)</text>
 <text x="379.9234928897204" y="387.5328890437411" font-size="13" fill="#a5c8ff" text-anchor="start" dominant-baseline="middle">MLOps (5)</text>
 <text x="180.07650711027958" y="387.5328890437411" font-size="13" fill="#a5c8ff" text-anchor="end" dominant-baseline="middle">Bioinformatics (2)</text>
 <text x="118.32039222982391" y="197.4671109562589" font-size="13" fill="#a5c8ff" text-anchor="end" dominant-baseline="middle">NLP (1)</text>
